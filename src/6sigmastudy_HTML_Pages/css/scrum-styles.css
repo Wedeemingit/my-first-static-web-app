@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Remove this*/
+.wrapper{
+	width:960px;
+	margin:auto;
+}
+/*CSS starts here*/
+#scrum-container {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: auto 16px;
+	position: relative;
+	line-height: 1.4;
+	color: #333;
+	text-align: justify
+}
+#scrum-container h1 {
+	font-size: 24px;
+	margin: 16px 0 20px 0;
+	color: #333;
+	padding-bottom: 8px;
+	border-bottom: solid 3px #eee;
+}
+#scrum-container h2 {
+	font-size: 18px;
+	margin: 0 0 4px 0;
+}
+#scrum-container p {
+	margin: 0 0 20px 0;
+}
+#scrum-container .media-block-holder {
+	margin: 48px 0;
+	text-align: center;
+}
+#scrum-container ul {
+	margin: 16px 0;
+	padding-left: 40px;
+}
+#scrum-container ul li {
+	margin: 4px 0;
+}
+#scrum-container ul ul {
+	margin: 0.75em 0;
+	padding-left: 20px;
+}
+#scrum-container img {
+	border: 0;
+}
+#scrum-container sup {
+	top: -0.5em;
+}
+#scrum-container sub {
+	bottom: -0.25em;
+}
+#scrum-container table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#scrum-container td, #scrum-container th {
+	padding: 0;
+}
+#scrum-container .youtube-list .yt-list {
+	margin-bottom: 30px;
+	min-height: 180px;
+	padding-bottom: 30px;
+	border-bottom: solid 1px #eee;
+}
+#scrum-container .youtube-list .yt-description{
+	/*margin-left:340px;*/
+}
+#scrum-container .youtube-list iframe {
+	float: left;
+	margin-right:20px;
+}
+#scrum-container .scrum-action-box {
+	padding:16px 24px;
+	height:35px;
+	border: solid 1px #eee;
+	background-color: #fafafa;
+}
+#scrum-container .scrum-action-box p{
+	margin:0;
+	padding-top:6px;
+}
+#scrum-container .scrum-btn {
+	background-color: #20a939;
+	border-radius: 4px;
+	padding: 8px 16px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#scrum-container .scrum-btn:hover {
+	background-color: #093;
+}
+#scrum-container .buy-sbok {
+	border: solid 1px #eee;
+	background-color: #fafafa;
+	padding: 20px;
+	margin: 20px 0;
+	min-height: 310px;
+}
+#scrum-container .buy-sbok .scrum-no-list {
+	list-style: none;
+	margin: 20px 0 30px;
+	padding: 0;
+}
+#scrum-container .buy-sbok .scrum-no-list li {
+	margin: 8px 0;
+}
+#scrum-container .buy-sbok .sbok-cover {
+	float: left;
+	width: 240px;
+}
+#scrum-container .buy-sbok .sbok-value {
+	margin-left: 270px
+}
+/*Compare table*/
+
+#scrum-container .comparison-table {
+	margin: 30px 0;
+}
+#scrum-container .certification-details-table th, #scrum-container .certification-details-table .align-center, #scrum-container .certification-details-table td {
+	text-align: center !important;
+}
+#scrum-container .comparison-table th, #scrum-container .comparison-table td {
+	padding: 10px;
+	text-align: left;
+	color: rgb(51, 51, 51);
+}
+#scrum-container .comparison-table td {
+	border: 1px solid rgb(221, 221, 221);
+	border-image: none;
+	background-color: rgb(255, 255, 255);
+}
+#scrum-container .comparison-table td:first-child {
+	background-color: rgb(248, 248, 248);
+}
+#scrum-container .comparison-table th {
+	border: 1px solid rgb(0, 83, 135);
+	border-image: none;
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	background-color: rgb(0, 99, 161);
+}
+#scrum-container .comparison-table .second-row th {
+	border: 1px solid rgb(0, 115, 186);
+	border-image: none;
+	background-color: rgb(0, 131, 212);
+}
+#scrum-container .comparison-table tr.odd td {
+	background-color: rgb(250, 250, 250);
+}
+#scrum-container .comparison-table tr.odd td:first-child {
+	background-color: rgb(242, 242, 242);
+}
